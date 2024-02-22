@@ -42,6 +42,7 @@ function onConnected() {
         JSON.stringify({sender: username, type: 'JOIN'})
     )
 
+
     connectingElement.classList.add('hidden');
 }
 
